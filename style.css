@@ -362,7 +362,7 @@ button {
 
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: hidden;
   /* background-color: red; */
   touch-action: none;
