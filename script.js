@@ -15,3 +15,20 @@ document
       event.preventDefault();
     }
   });
+
+var myDiv = document.querySelectorAll("#marquee1");
+
+myDiv.forEach(function (element) {
+  element.addEventListener("touchstart", handleTouchStart, { passive: false });
+  element.addEventListener("touchmove", handleTouchMove, { passive: false });
+});
+
+function handleTouchStart(event) {
+  // Prevent default behavior
+  event.preventDefault();
+}
+
+function handleTouchMove(event) {
+  // Prevent default behavior
+  event.preventDefault();
+}
