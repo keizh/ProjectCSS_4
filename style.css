@@ -365,6 +365,7 @@ button {
   overflow-x: auto;
   overflow-y: hidden;
   /* background-color: red; */
+  touch-action: none;
 }
 
 .marquee1::-webkit-scrollbar {
@@ -388,6 +389,7 @@ button {
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  /* touch-action: none; */
 }
 
 .marquee1 .roller::-webkit-scrollbar {
